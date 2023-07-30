@@ -14,4 +14,6 @@ changeColorButton.addEventListener("click", () => {
   const randomColor = getRandomHexColor();
   //Прив'язав ці кольори до body
   document.body.style.backgroundColor = randomColor;
+  //Вивів значення кольору в span
+  colorSpan.textContent = randomColor;
 });
